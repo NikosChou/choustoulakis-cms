@@ -47,12 +47,9 @@ jobs:
            echo ${{ secrets.K8S }} | base64 -d > /tmp/kubeconf
            export KUBECONFIG=/tmp/kubeconf
            kubectl get pods
-      - name: set secret
-        run: echo ${{ secrets.SECRET_PROPERTIES }} | base64 -d > k8s/secrets/application.properties
-      - name: apply kustomize
-        run: kubectl -n choustoulakis apply -k k8s
-      - name: rollout
-        run: kubectl -n choustoulakis rollout status k8s/deployment.yaml
+           echo ${{ secrets.SECRET_PROPERTIES }} | base64 -d > k8s/secrets/application.properties
+           kubectl -n choustoulakis apply -k k8s
+           kubectl -n choustoulakis rollout status k8s/deployment.yaml
       - name: cleaning
         run: |
           rm -rf /tmp/kubeconf
