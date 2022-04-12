@@ -36,6 +36,8 @@ jobs:
       run: docker push public.ecr.aws/h7v4k5t3/choustoulakis-cms:latest
 
   deploy:
+    needs:
+      - build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
