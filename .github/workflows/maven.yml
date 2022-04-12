@@ -45,7 +45,7 @@ jobs:
       - name: Set k8sEnv
         run: |
            echo ${{ secrets.K8S }} | base64 -d > /tmp/kubeconf
-           export KUBECONF=/tmp/kubeconf
+           export KUBECONFIG=/tmp/kubeconf
       - name: set secret
         run: echo ${{ secrets.SECRET_PROPERTIES }} | base64 -d > k8s/secrets/application.properties
       - name: apply kustomize
