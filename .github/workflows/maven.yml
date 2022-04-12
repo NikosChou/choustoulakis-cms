@@ -49,7 +49,7 @@ jobs:
            kubectl get pods
            echo ${{ secrets.SECRET_PROPERTIES }} | base64 -d > k8s/secrets/application.properties
            kubectl -n choustoulakis apply -k k8s
-           kubectl -n choustoulakis rollout status k8s/deployment.yaml
+           kubectl -n choustoulakis rollout status -f k8s/deployment.yaml
       - name: cleaning
         run: |
           rm -rf /tmp/kubeconf
