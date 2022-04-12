@@ -1,6 +1,3 @@
-# This workflow will build a Java project with Maven, and cache/restore any dependencies to improve the workflow execution time
-# For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-maven
-
 name: Java CI with Maven
 
 on:
@@ -36,6 +33,6 @@ jobs:
     - name: build image
       run: docker build . -t choustoulakis-cms
     - name: tag image
-      run: docker tag choustoulakis-cms:latest public.ecr.aws/h7v4k5t3/choustoulakis-cms:$(git rev-parse --short "$GITHUB_SHA")
+      run: docker tag choustoulakis-cms:latest public.ecr.aws/h7v4k5t3/choustoulakis-cms:latest
     - name: push to ecr
-      run: docker push public.ecr.aws/h7v4k5t3/choustoulakis-cms:$(git rev-parse --short "$GITHUB_SHA")
+      run: docker push public.ecr.aws/h7v4k5t3/choustoulakis-cms:latest
