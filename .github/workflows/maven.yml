@@ -41,7 +41,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: tale/kubectl-action@v1
+      - uses: azure/setup-kubectl@v2.0
       - name: Set k8sEnv
         run: |
            echo ${{ secrets.K8S }} | base64 -d > /tmp/kubeconf
