@@ -8,9 +8,7 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v3
     - name: Set up JDK 17
@@ -36,3 +34,24 @@ jobs:
       run: docker tag choustoulakis-cms:latest public.ecr.aws/h7v4k5t3/choustoulakis-cms:latest
     - name: push to ecr
       run: docker push public.ecr.aws/h7v4k5t3/choustoulakis-cms:latest
+
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: tale/kubectl-action@v1
+      - name: Set k8sEnv
+        run: |
+           echo ${{ secrets.K8S }} | base64 -d > /tmp/kubeconf
+           export KUBECONF=/tmp/kubeconf
+      - name: set secret
+        run: echo ${{ secrets.SECRET_PROPERTIES }} | base64 -d > k8s/secrets/application.properties
+      - name: apply kustomize
+        run: kubectl -n choustoulakis apply -k k8s
+      - name: rollout
+        run: kubectl -n choustoulakis rollout status k8s/deployment.yaml
+      - name: cleaning
+        run: |
+          rm -rf /tmp/kubeconf
+          rm -rf k8s/secrets
+

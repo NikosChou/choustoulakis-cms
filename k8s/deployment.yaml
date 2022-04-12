@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: choustoulakis-cms-app
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        deployment: choustoulakis-cms-app
+    spec:
+      containers:
+        - name: choustoulakis-cms-cont
+          imagePullPolicy: Always
+          image: public.ecr.aws/h7v4k5t3/choustoulakis-cms:latest
+          env:
+            - name: SPRING_PROFILES_ACTIVE
+              valueFrom:
+                configMapKeyRef:
+                  name: choustoulakis-cms-configmap
+                  key: SPRING_PROFILES
+          ports:
+            - containerPort: 8081
+            - containerPort: 9000
+          readinessProbe:
+            httpGet:
+              path: /monitoring/health
+              port: 8081
+            initialDelaySeconds: 10
+            periodSeconds: 10
+          resources:
+            requests:
+              memory: "128Mi"
+              cpu: "100m"
+          volumeMounts:
+            - name: config
+              mountPath: /config/application.properties
+              subPath: application.properties
+      volumes:
+        - name: config
+          secret:
+            secretName: choustoulakis-cms-secret
