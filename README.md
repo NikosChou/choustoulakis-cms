@@ -3,8 +3,8 @@
 [choustoulakis.de](https://choustoulakis.de)
 
 ## My cv website.
-VueJs application planned to migrate on Vue3 --> End of 2022
+Springboot application currently fetching content from contentful
 
-Deployd on AWS
+Deployd on kubernetes 
 
 [frontend - vuejs - vuetify](https://github.com/NikosChou/choustoulakis)
