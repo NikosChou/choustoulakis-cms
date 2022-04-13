@@ -1,0 +1,249 @@
+{
+  "sys": {
+    "type": "Array"
+  },
+  "total": 6,
+  "skip": 0,
+  "limit": 100,
+  "items": [
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "6UysY09mq1w44TAS9Lsme6",
+        "type": "Entry",
+        "createdAt": "2022-04-09T16:51:19.765Z",
+        "updatedAt": "2022-04-10T18:01:03.390Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "workExperience"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "company": "P&C (Festanstellung)",
+        "points": "Scala, Akka, kubernetes, Microservices, wavefront, postgresql, Amazon Web Services, ElasticSearch, Mongodb",
+        "startDate": "2018-05-01T00:00+03:00",
+        "endDate": "2019-06-30T00:00+03:00"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "1RJHcx0PUeDa4v4psGvkPy",
+        "type": "Entry",
+        "createdAt": "2022-04-09T16:52:14.057Z",
+        "updatedAt": "2022-04-09T16:52:14.057Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "workExperience"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "company": "ISTA (Festanstellung)",
+        "points": "Angular, Java, Javascript, Microservices, Angular 11, kubernetes, postgresql, Gitlab, ci-cd, Microfrontend, KrakenD, JMS, Active-MQ",
+        "startDate": "2020-11-14T00:00+03:00"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "5Ts619cIBUEr6nGw3EQepF",
+        "type": "Entry",
+        "createdAt": "2022-04-09T16:50:12.132Z",
+        "updatedAt": "2022-04-09T16:50:12.132Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "workExperience"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "company": "Toyota Kreditbank (Externe)",
+        "points": "Java, Java-Swing, jquery, Oracle, spring, GIT",
+        "startDate": "2018-02-25T00:00+03:00",
+        "endDate": "2018-05-31T00:00+03:00"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "4if2EuoVwfIwsM8vjrJRRb",
+        "type": "Entry",
+        "createdAt": "2022-04-09T16:49:06.177Z",
+        "updatedAt": "2022-04-09T16:49:06.177Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "workExperience"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "company": "Brainbits (Externe)",
+        "points": "Java, atlassian sdk, jquery, velocity, closure, postgresql, html, css, js",
+        "startDate": "2017-12-01T00:00+03:00",
+        "endDate": "2018-02-24T00:00+03:00"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "2USLBqnyPE5mgYa2clJPHK",
+        "type": "Entry",
+        "createdAt": "2022-04-09T16:47:42.113Z",
+        "updatedAt": "2022-04-09T16:47:42.113Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "workExperience"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "company": "Check24 (Festanstellung)",
+        "points": "jee, Java8, spring4, oracle, velocity, html, js, git, oracle, rest, sql, groovy, hibernate, elasticsearch, design patterns",
+        "startDate": "2015-05-11T00:00+03:00",
+        "endDate": "2017-10-31T00:00+03:00"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "38RBMRRpvnyy2UNc2Asani",
+        "type": "Entry",
+        "createdAt": "2022-04-09T16:46:19.094Z",
+        "updatedAt": "2022-04-09T16:46:19.094Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "workExperience"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "company": "Treelogics Software Services GmbH (Praktikant)",
+        "points": "java, jpa, jsf, oracle, websocket, maven, subversion, ecliipse, gwt, agile",
+        "startDate": "2014-07-01T00:00+03:00",
+        "endDate": "2015-03-31T00:00+03:00"
+      }
+    }
+  ]
+}

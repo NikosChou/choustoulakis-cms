@@ -29,7 +29,10 @@ public class CDAMapper {
   private static final String NAME = "name";
   private static final String VALUE = "value";
   private static final String SECONDARY_TEXT = "secondaryText";
-  private static final DateTimeFormatter FORMATTER = DateTimeFormatter.ofPattern("MMMM.yyyy", Locale.GERMAN);
+  private static final DateTimeFormatter FORMATTER =
+      DateTimeFormatter.ofPattern("MMMM.yyyy", Locale.GERMAN);
+  public static final String START_DATE = "startDate";
+  public static final String END_DATE = "endDate";
   final HtmlProcessor processor;
   final HtmlContext context;
 
@@ -78,13 +81,13 @@ public class CDAMapper {
         .company(entry.getField(COMPANY))
         .description(processor.process(context, entry.getField(DESCRIPTION)))
         .points(entry.getField(POINTS))
-        .time(this.mapTime(entry.getField("startDate"), entry.getField("endDate")))
+        .time(this.mapTime(entry.getField(START_DATE), entry.getField(END_DATE)))
         .build();
   }
 
   private String mapTime(String startDate, String endDate) {
     if (StringUtils.isBlank(endDate)) {
-      return "from " + FORMATTER.format(ZonedDateTime.parse(startDate));
+      return "seit " + FORMATTER.format(ZonedDateTime.parse(startDate));
     }
     return FORMATTER.format(ZonedDateTime.parse(startDate))
         + " - "
