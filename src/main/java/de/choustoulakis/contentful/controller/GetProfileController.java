@@ -11,12 +11,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/posts")
 @AllArgsConstructor
-public class GetInfoController {
+public class GetProfileController {
 
   private final ContentfulService service;
 
   @GetMapping("/profile")
-  public ResponseEntity<BasicInfos> getInfos() {
+  public ResponseEntity<BasicInfos> getProfile() {
     var basicInfos =
         BasicInfos.builder()
             .infos(service.getProfileInfos())
@@ -25,7 +25,7 @@ public class GetInfoController {
             .workExperiences(service.getProfileWorkExperience())
             .skills(service.getProfileSkills())
             .languages(service.getLanguageSkills())
-                .educations(service.getEducations())
+            .educations(service.getEducations())
             .build();
     return ResponseEntity.ok(basicInfos);
   }
