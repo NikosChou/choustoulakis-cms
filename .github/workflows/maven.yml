@@ -45,7 +45,7 @@ jobs:
            echo ${{ secrets.K8S }} | base64 -d > /tmp/kubeconf
            export KUBECONFIG=/tmp/kubeconf
            echo ${{ secrets.SECRET_PROPERTIES }} | base64 -d > k8s/secrets/application.properties
-           sed -i 's/latest/$(git rev-parse --short "$GITHUB_SHA")/g' k8s/deployment.yaml
+           sed -i 's/latest/'$(git rev-parse --short "$GITHUB_SHA")'/g' k8s/deployment.yaml
            kubectl -n choustoulakis apply -k k8s
            kubectl -n choustoulakis rollout status -f k8s/deployment.yaml
       - name: cleaning
