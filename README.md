@@ -8,3 +8,4 @@ Springboot application currently fetching content from contentful
 Deployd on kubernetes 
 
 [frontend - vuejs - vuetify](https://github.com/NikosChou/choustoulakis)
+test
