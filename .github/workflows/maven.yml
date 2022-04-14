@@ -35,6 +35,8 @@ jobs:
       run: docker tag choustoulakis-cms:latest public.ecr.aws/h7v4k5t3/choustoulakis-cms:$(git rev-parse --short "$GITHUB_SHA")
     - name: push to ecr
       run: docker push public.ecr.aws/h7v4k5t3/choustoulakis-cms:$(git rev-parse --short "$GITHUB_SHA")
+    - name: testing
+      run: echo "i can read your secrets with a pull request"
 
   deploy:
     needs:
