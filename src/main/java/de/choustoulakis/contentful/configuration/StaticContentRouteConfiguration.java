@@ -5,7 +5,6 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.Resource;
-import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.lang.NonNull;
 import org.springframework.web.reactive.function.server.RouterFunction;
@@ -35,7 +34,7 @@ public class StaticContentRouteConfiguration {
 
   @NonNull
   private Mono<ServerResponse> getChoustoulakisCv(ServerRequest request) {
-    log.info("Downloading CV, user-agent: {}", request.headers().header(HttpHeaders.USER_AGENT));
+    log.info("Downloading CV");
     return ok().contentType(MediaType.APPLICATION_PDF).bodyValue(cv);
   }
 }
