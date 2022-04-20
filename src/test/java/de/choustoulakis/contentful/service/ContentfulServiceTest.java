@@ -1,8 +1,9 @@
 package de.choustoulakis.contentful.service;
 
+import de.choustoulakis.contentful.BaseTest;
 import de.choustoulakis.contentful.client.ContentfulClient;
+import de.choustoulakis.contentful.lib.Enqueue;
 import de.choustoulakis.contentful.mappers.CDAMapper;
-import de.choustoulakis.contentful.service.lib.Enqueue;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

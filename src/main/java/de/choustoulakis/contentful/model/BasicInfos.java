@@ -1,11 +1,11 @@
 package de.choustoulakis.contentful.model;
 
 import lombok.Builder;
-import lombok.Value;
+import lombok.Data;
 
 import java.util.List;
 
-@Value
+@Data
 @Builder
 public class BasicInfos {
   List<Info> infos;

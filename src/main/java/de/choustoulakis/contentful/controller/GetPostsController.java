@@ -1,5 +1,6 @@
 package de.choustoulakis.contentful.controller;
 
+import de.choustoulakis.contentful.model.BasicInfos;
 import de.choustoulakis.contentful.model.Posts;
 import de.choustoulakis.contentful.service.ContentfulService;
 import lombok.AllArgsConstructor;
@@ -25,6 +26,24 @@ public class GetPostsController {
     log.info("Entering homepage");
     var posts =
         Posts.builder().data(this.service.getPosts(List.of("homepage-2", "homepage-1"))).build();
-    return ResponseEntity.ok(posts);
+    return ResponseEntity.ok(log.traceExit(posts));
+  }
+
+  @GetMapping("/profile")
+  public ResponseEntity<BasicInfos> getProfile() {
+    log.info("Entering profile");
+
+    var basicInfos =
+        BasicInfos.builder()
+            .infos(service.getProfileInfos())
+            .social(service.getProfileSocial())
+            .summary(service.getProfileSummary())
+            .workExperiences(service.getProfileWorkExperience())
+            .skills(service.getProfileSkills())
+            .languages(service.getLanguageSkills())
+            .educations(service.getEducations())
+            .build();
+
+    return ResponseEntity.ok(log.traceExit(basicInfos));
   }
 }

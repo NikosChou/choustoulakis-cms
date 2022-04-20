@@ -1,0 +1,225 @@
+{
+  "sys": {
+    "type": "Array"
+  },
+  "total": 3,
+  "skip": 0,
+  "limit": 100,
+  "items": [
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "19aGBOtTHbzlQChpyTUPVi",
+        "type": "Entry",
+        "createdAt": "2022-04-09T16:03:15.433Z",
+        "updatedAt": "2022-04-12T15:31:34.302Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 3,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "post"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "reference": "application.summary.text"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "1P17rQpMFerUyglm9TMnuc",
+        "type": "Entry",
+        "createdAt": "2022-04-09T12:14:05.847Z",
+        "updatedAt": "2022-04-09T13:21:32.063Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 5,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "post"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "media": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Asset",
+            "id": "2Z1MTZ8lmjB3isiWAtAIzR"
+          }
+        },
+        "reference": "homepage-1"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "6mVqKKmmnxr1Yt4T79jgjl",
+        "type": "Entry",
+        "createdAt": "2022-04-09T10:07:50.167Z",
+        "updatedAt": "2022-04-09T13:14:43.878Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 5,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "post"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "media": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Asset",
+            "id": "5qUnlhx8ZIWPolLvDjku6S"
+          }
+        },
+        "reference": "homepage-2"
+      }
+    }
+  ],
+  "includes": {
+    "Asset": [
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "w66g3oko737j"
+            }
+          },
+          "id": "2Z1MTZ8lmjB3isiWAtAIzR",
+          "type": "Asset",
+          "createdAt": "2022-04-09T12:18:00.897Z",
+          "updatedAt": "2022-04-09T12:18:00.897Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "nikos",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/w66g3oko737j/2Z1MTZ8lmjB3isiWAtAIzR/8152286be6cc4e9a324d7825fe0192af/nikos.jpg",
+            "details": {
+              "size": 117914,
+              "image": {
+                "width": 1024,
+                "height": 1024
+              }
+            },
+            "fileName": "nikos.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "w66g3oko737j"
+            }
+          },
+          "id": "5qUnlhx8ZIWPolLvDjku6S",
+          "type": "Asset",
+          "createdAt": "2022-04-09T10:09:08.543Z",
+          "updatedAt": "2022-04-09T10:09:08.543Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "Über mich",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/w66g3oko737j/5qUnlhx8ZIWPolLvDjku6S/2390f3576bc934230d6f3425fe539d47/undraw_profile_6l1l.svg",
+            "details": {
+              "size": 10107,
+              "image": {
+                "width": 1032,
+                "height": 742
+              }
+            },
+            "fileName": "undraw_profile_6l1l.svg",
+            "contentType": "image/svg+xml"
+          }
+        }
+      }
+    ]
+  }
+}

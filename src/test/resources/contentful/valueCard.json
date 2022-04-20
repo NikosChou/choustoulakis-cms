@@ -1,0 +1,367 @@
+{
+  "sys": {
+    "type": "Array"
+  },
+  "total": 9,
+  "skip": 0,
+  "limit": 100,
+  "items": [
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "1ovMapexOAzi13Iu15a1tf",
+        "type": "Entry",
+        "createdAt": "2022-04-09T20:09:25.094Z",
+        "updatedAt": "2022-04-09T20:22:31.410Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "valueCard"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Griechisch",
+        "value": 100,
+        "reference": "language"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "6pyny39v4kNWrMDEICza45",
+        "type": "Entry",
+        "createdAt": "2022-04-09T17:16:36.628Z",
+        "updatedAt": "2022-04-09T20:22:26.504Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 4,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "valueCard"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Css",
+        "icon": "fab fa-css3",
+        "value": 80,
+        "reference": "programming"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "2HMQDeLen1DfSltN1PWW4J",
+        "type": "Entry",
+        "createdAt": "2022-04-09T17:17:37.584Z",
+        "updatedAt": "2022-04-09T20:22:08.793Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 3,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "valueCard"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Java",
+        "icon": "fab fa-java",
+        "value": 95,
+        "reference": "programming"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "2OfDSH582gggNSG87kGTiG",
+        "type": "Entry",
+        "createdAt": "2022-04-09T17:16:51.720Z",
+        "updatedAt": "2022-04-09T20:22:04.532Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "valueCard"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Js",
+        "icon": "fab fa-js",
+        "value": 80,
+        "reference": "programming"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "6m55f0WXdnW0371oTHfLUb",
+        "type": "Entry",
+        "createdAt": "2022-04-09T17:16:18.572Z",
+        "updatedAt": "2022-04-09T20:21:58.062Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 3,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "valueCard"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "HTML",
+        "icon": "fab fa-html5",
+        "value": 100,
+        "reference": "programming"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "7C0Uzb8CgLXDNzqS0mtBJf",
+        "type": "Entry",
+        "createdAt": "2022-04-09T17:17:04.229Z",
+        "updatedAt": "2022-04-09T20:21:52.817Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "valueCard"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Vue",
+        "icon": "fab fa-vuejs",
+        "value": 90,
+        "reference": "programming"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "2elXk11jZnQ5mDJoSM64Oq",
+        "type": "Entry",
+        "createdAt": "2022-04-09T17:17:23.610Z",
+        "updatedAt": "2022-04-09T20:21:47.132Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "valueCard"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Scala",
+        "icon": "fas fa-bars",
+        "value": 80,
+        "reference": "programming"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "5sLhn1F05u7b9tCN8UDhaq",
+        "type": "Entry",
+        "createdAt": "2022-04-09T20:09:54.579Z",
+        "updatedAt": "2022-04-09T20:21:33.751Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 4,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "valueCard"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Englisch",
+        "value": 80,
+        "reference": "language"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "4ILsfzXMNeWsUckdvfuMoK",
+        "type": "Entry",
+        "createdAt": "2022-04-09T20:09:45.787Z",
+        "updatedAt": "2022-04-09T20:21:25.876Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 3,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "valueCard"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Deutsch",
+        "value": 90,
+        "reference": "language"
+      }
+    }
+  ]
+}

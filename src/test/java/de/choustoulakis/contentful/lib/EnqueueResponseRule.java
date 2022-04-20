@@ -1,6 +1,6 @@
-package de.choustoulakis.contentful.service.lib;
+package de.choustoulakis.contentful.lib;
 
-import de.choustoulakis.contentful.service.BaseTest;
+import de.choustoulakis.contentful.BaseTest;
 import org.junit.jupiter.api.extension.BeforeEachCallback;
 import org.junit.jupiter.api.extension.ExtensionContext;
 

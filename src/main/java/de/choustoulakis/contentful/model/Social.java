@@ -1,9 +1,9 @@
 package de.choustoulakis.contentful.model;
 
 import lombok.Builder;
-import lombok.Value;
+import lombok.Data;
 
-@Value
+@Data
 @Builder
 public class Social {
   String icon;

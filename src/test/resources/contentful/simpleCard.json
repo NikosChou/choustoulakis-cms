@@ -1,0 +1,683 @@
+{
+  "sys": {
+    "type": "Array"
+  },
+  "total": 17,
+  "skip": 0,
+  "limit": 100,
+  "items": [
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "2unLGnYxyKFADMZ73ACL2P",
+        "type": "Entry",
+        "createdAt": "2022-04-10T06:05:47.841Z",
+        "updatedAt": "2022-04-10T06:05:47.841Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "simpleCard"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "icon": "/static/docker.png",
+        "href": "https://www.udemy.com/certificate/UC-23708352-680d-431f-be7c-650d6fe96feb",
+        "text": "Docker Mastery: with Kubernetes +Swarm",
+        "secondaryText": "Udemy",
+        "reference": "education"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "7ElYucuIynQuJqrWeMeUdy",
+        "type": "Entry",
+        "createdAt": "2022-04-10T06:05:13.126Z",
+        "updatedAt": "2022-04-10T06:05:13.126Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "simpleCard"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "icon": "/static/scala-spiral.png",
+        "href": "https://coursera.org/share/7fee3c63cbd37db262d3bed8f2c82fd9",
+        "text": "Functional Programming Principles in Scala",
+        "secondaryText": "Coursera / École Polytechnique Fédérale de Lausanne",
+        "reference": "education"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "2690PK2z0y6eAcRb7Z5sie",
+        "type": "Entry",
+        "createdAt": "2022-04-10T06:04:38.684Z",
+        "updatedAt": "2022-04-10T06:04:38.684Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "simpleCard"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "icon": "/static/scala-spiral.png",
+        "href": "https://coursera.org/share/a790f6529fe2c1d4935d544a2abc4885",
+        "text": "Functional Program Design in Scala",
+        "secondaryText": "Coursera / École Polytechnique Fédérale de Lausanne",
+        "reference": "education"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "2uT2EIFfkAv6tmY5y0gjIY",
+        "type": "Entry",
+        "createdAt": "2022-04-10T06:04:01.455Z",
+        "updatedAt": "2022-04-10T06:04:01.455Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "simpleCard"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+        "href": "https://www.udemy.com/certificate/UC-83bd3905-2f28-4bb6-9331-1a2ce320c70a/",
+        "text": "JavaScript - The Complete Guide 2021 (Beginner + Advanced)",
+        "secondaryText": "Udemy",
+        "reference": "education"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "1255B5PyJHRUvCV0AxRug7",
+        "type": "Entry",
+        "createdAt": "2022-04-10T06:03:16.416Z",
+        "updatedAt": "2022-04-10T06:03:16.416Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "simpleCard"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "icon": "/oracle-certified-associate-java-se-8-programmer.png",
+        "href": "https://www.credly.com/badges/a9f13c74-407e-45c5-8d84-fa3a40ed40a4/public_url",
+        "text": "Oracle Certified Associate, Java SE 8 Programmer",
+        "secondaryText": "Oracle",
+        "reference": "education"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "8aZhKFF7tzW9rQS4dgdqe",
+        "type": "Entry",
+        "createdAt": "2022-04-10T06:02:40.104Z",
+        "updatedAt": "2022-04-10T06:02:40.104Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "simpleCard"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "icon": "/oracle-certified-professional-java-se-8-programmer.png",
+        "href": "https://www.credly.com/badges/224a742f-870e-403c-acde-96d39d464a6e/public_url",
+        "text": "Oracle Certified Professional, Java SE 8 Programmer",
+        "secondaryText": "Oracle",
+        "reference": "education"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "3wKCUKQ2x24avAAT8TmpUv",
+        "type": "Entry",
+        "createdAt": "2022-04-10T06:01:55.203Z",
+        "updatedAt": "2022-04-10T06:01:55.203Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "simpleCard"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "icon": "https://sw.hmu.gr/wp-content/uploads/2020/04/logo-elmepa-100-white.png",
+        "href": "https://ece.hmu.gr/en",
+        "text": "Hellenic Mediterranean University",
+        "secondaryText": "Electrical and Computer Engineering",
+        "reference": "education"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "1hKNtsBZvusfDuRRiAtPm4",
+        "type": "Entry",
+        "createdAt": "2022-04-09T13:59:31.236Z",
+        "updatedAt": "2022-04-09T13:59:31.236Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "simpleCard"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "icon": "fab fa-instagram",
+        "href": "https://www.instagram.com/nikos_lentas/",
+        "reference": "profile-social"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "3lcKQWYE1vcShNkrED9OHc",
+        "type": "Entry",
+        "createdAt": "2022-04-09T13:59:12.169Z",
+        "updatedAt": "2022-04-09T13:59:12.169Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "simpleCard"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "icon": "fab fa-facebook-f",
+        "href": "https://www.facebook.com/nikos.ch.984",
+        "reference": "profile-social"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "2dAjYnEwdIngIccZdYMUzv",
+        "type": "Entry",
+        "createdAt": "2022-04-09T13:58:47.893Z",
+        "updatedAt": "2022-04-09T13:58:47.893Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "simpleCard"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "icon": "fab fa-linkedin",
+        "href": "https://www.linkedin.com/in/nikolaos-choustoulakis-0a07b5201",
+        "reference": "profile-social"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "7fRJVK9q0dUinm4Fj1IDWE",
+        "type": "Entry",
+        "createdAt": "2022-04-09T13:58:25.980Z",
+        "updatedAt": "2022-04-09T13:58:25.980Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "simpleCard"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "icon": "fab fa-github",
+        "href": "https://github.com/NikosChou",
+        "reference": "profile-social"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "6wMzqtI1z3AKJLXAPicpUi",
+        "type": "Entry",
+        "createdAt": "2022-04-09T13:45:08.306Z",
+        "updatedAt": "2022-04-09T13:49:20.495Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 3,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "simpleCard"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "icon": "fas fa-user",
+        "reference": "profile-infos"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "5T7kywWsGPjKVxEWwFBDit",
+        "type": "Entry",
+        "createdAt": "2022-04-09T13:45:59.068Z",
+        "updatedAt": "2022-04-09T13:49:15.602Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "simpleCard"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "icon": "fas fa-briefcase",
+        "reference": "profile-infos"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "3X5WIWquuYzRWtEnv9YNFh",
+        "type": "Entry",
+        "createdAt": "2022-04-09T13:46:22.573Z",
+        "updatedAt": "2022-04-09T13:49:07.504Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "simpleCard"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "icon": "fas fa-map",
+        "reference": "profile-infos"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "5UUv5fGVi2zetWZIfjfKDx",
+        "type": "Entry",
+        "createdAt": "2022-04-09T13:46:41.312Z",
+        "updatedAt": "2022-04-09T13:49:01.602Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "simpleCard"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "icon": "fas fa-birthday-cake",
+        "reference": "profile-infos"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "3BwEQAFLKYk2kDGYDe5kAl",
+        "type": "Entry",
+        "createdAt": "2022-04-09T13:47:04.458Z",
+        "updatedAt": "2022-04-09T13:48:55.709Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "simpleCard"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "icon": "fas fa-phone-alt",
+        "href": "tel:00491607279057",
+        "reference": "profile-infos"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
+        "id": "3fU4E5fXDclp86lfgYbvGY",
+        "type": "Entry",
+        "createdAt": "2022-04-09T13:47:27.461Z",
+        "updatedAt": "2022-04-09T13:48:46.670Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "simpleCard"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "icon": "fas fa-envelope",
+        "href": "mailto:nikolaos@choustoulakis.de",
+        "reference": "profile-infos"
+      }
+    }
+  ]
+}

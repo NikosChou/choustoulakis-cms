@@ -1,4 +1,4 @@
-package de.choustoulakis.contentful.service.lib;
+package de.choustoulakis.contentful.lib;
 
 import com.contentful.java.cda.CDACallback;
 import com.contentful.java.cda.CDAResource;

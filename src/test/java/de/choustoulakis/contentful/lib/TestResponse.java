@@ -1,4 +1,4 @@
-package de.choustoulakis.contentful.service.lib;
+package de.choustoulakis.contentful.lib;
 
 import okhttp3.Headers;
 

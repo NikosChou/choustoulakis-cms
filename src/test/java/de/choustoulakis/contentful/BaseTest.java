@@ -1,48 +1,55 @@
-package de.choustoulakis.contentful.service;
+package de.choustoulakis.contentful;
 
 import com.contentful.java.cda.CDAClient;
-import com.contentful.java.cda.CDAResource;
-import de.choustoulakis.contentful.service.lib.EnqueueResponseRule;
-import de.choustoulakis.contentful.service.lib.TestCallback;
-import de.choustoulakis.contentful.service.lib.TestResponse;
+import de.choustoulakis.contentful.lib.EnqueueResponseRule;
+import de.choustoulakis.contentful.lib.TestResponse;
 import okhttp3.mockwebserver.MockResponse;
 import okhttp3.mockwebserver.MockWebServer;
 import org.junit.Rule;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.extension.ExtendWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.web.server.LocalServerPort;
+import org.springframework.test.context.ActiveProfiles;
+import org.springframework.test.web.reactive.server.WebTestClient;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.InetAddress;
 import java.net.URL;
 import java.util.List;
-import java.util.logging.LogManager;
 
 import static java.nio.charset.Charset.defaultCharset;
 import static lombok.Lombok.checkNotNull;
 import static org.apache.commons.io.FileUtils.readFileToString;
-import static org.assertj.core.api.Assertions.assertThat;
 
+@ActiveProfiles("test")
+@SpringBootTest(
+    classes = TestApplicationContext.class,
+    webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @ExtendWith(EnqueueResponseRule.class)
 public class BaseTest {
-  public static final String DEFAULT_TOKEN = "test_token";
-  public static final String DEFAULT_SPACE = "test_space";
 
-  CDAClient client;
+  @Autowired protected CDAClient client;
+
+  @Autowired Integer mockServerPort;
 
   MockWebServer server;
-
   List<TestResponse> responseQueue;
 
   @Rule public EnqueueResponseRule enqueueResponse = new EnqueueResponseRule();
 
-  @BeforeEach
-  public void setUp() throws IOException {
-    LogManager.getLogManager().reset();
-    server = createServer();
-    server.start();
+  @LocalServerPort private Integer port;
 
-    client = createClient();
+  protected WebTestClient webClient;
+
+  @BeforeEach
+  protected void setUp() throws IOException {
+    server = new MockWebServer();
+    server.start(InetAddress.getByName("localhost"), mockServerPort);
+    this.webClient = WebTestClient.bindToServer().baseUrl("http://localhost:" + this.port).build();
 
     if (responseQueue != null) {
       for (TestResponse response : responseQueue) {
@@ -52,31 +59,9 @@ public class BaseTest {
   }
 
   @AfterEach
-  public void tearDown() throws IOException {
+  protected void tearDown() throws IOException {
     server.shutdown();
-  }
-
-  protected CDAClient createClient() {
-    return createBuilder().build();
-  }
-
-  protected CDAClient createPreviewClient() {
-    return createBuilder().preview().setEndpoint(serverUrl()).build();
-  }
-
-  protected CDAClient.Builder createBuilder() {
-    return CDAClient.builder()
-        .setSpace(DEFAULT_SPACE)
-        .setToken(DEFAULT_TOKEN)
-        .setEndpoint(serverUrl());
-  }
-
-  protected String serverUrl() {
-    return "http://" + server.getHostName() + ":" + server.getPort();
-  }
-
-  protected MockWebServer createServer() {
-    return new MockWebServer();
+    client.clearCache();
   }
 
   protected void enqueue(TestResponse response) throws IOException {
@@ -97,11 +82,5 @@ public class BaseTest {
   public BaseTest setResponseQueue(List<TestResponse> responseQueue) {
     this.responseQueue = responseQueue;
     return this;
-  }
-
-  protected <T extends CDAResource> T assertCallback(TestCallback<T> callback) {
-    assertThat(callback.error()).isNull();
-    assertThat(callback.result()).isNotNull();
-    return callback.result();
   }
 }

@@ -18,6 +18,46 @@
             "id": "w66g3oko737j"
           }
         },
+        "id": "1RJHcx0PUeDa4v4psGvkPy",
+        "type": "Entry",
+        "createdAt": "2022-04-09T16:52:14.057Z",
+        "updatedAt": "2022-04-15T18:25:32.191Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "workExperience"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "company": "ISTA (Festanstellung)",
+        "points": "Angular, Java, Javascript, Microservices, Angular 11, kubernetes, postgresql, Gitlab, ci-cd, Microfrontend, KrakenD, JMS, Active-MQ",
+        "startDate": "2020-11-14T00:00+03:00",
+        "endDate": "2022-05-31T00:00+03:00"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "w66g3oko737j"
+          }
+        },
         "id": "6UysY09mq1w44TAS9Lsme6",
         "type": "Entry",
         "createdAt": "2022-04-09T16:51:19.765Z",
@@ -44,45 +84,6 @@
         "points": "Scala, Akka, kubernetes, Microservices, wavefront, postgresql, Amazon Web Services, ElasticSearch, Mongodb",
         "startDate": "2018-05-01T00:00+03:00",
         "endDate": "2019-06-30T00:00+03:00"
-      }
-    },
-    {
-      "metadata": {
-        "tags": []
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "w66g3oko737j"
-          }
-        },
-        "id": "1RJHcx0PUeDa4v4psGvkPy",
-        "type": "Entry",
-        "createdAt": "2022-04-09T16:52:14.057Z",
-        "updatedAt": "2022-04-09T16:52:14.057Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "revision": 1,
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "workExperience"
-          }
-        },
-        "locale": "en-US"
-      },
-      "fields": {
-        "company": "ISTA (Festanstellung)",
-        "points": "Angular, Java, Javascript, Microservices, Angular 11, kubernetes, postgresql, Gitlab, ci-cd, Microfrontend, KrakenD, JMS, Active-MQ",
-        "startDate": "2020-11-14T00:00+03:00"
       }
     },
     {
