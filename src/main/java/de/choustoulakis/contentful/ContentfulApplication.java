@@ -3,7 +3,6 @@ package de.choustoulakis.contentful;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import javax.annotation.PostConstruct;
 import java.util.TimeZone;
 
 @SpringBootApplication
@@ -13,8 +12,7 @@ public class ContentfulApplication {
     SpringApplication.run(ContentfulApplication.class, args);
   }
 
-  @PostConstruct
-  public void init() {
-    TimeZone.setDefault(TimeZone.getTimeZone("Greece"));
+  static {
+    TimeZone.setDefault(TimeZone.getTimeZone("Europe/Athens"));
   }
 }
