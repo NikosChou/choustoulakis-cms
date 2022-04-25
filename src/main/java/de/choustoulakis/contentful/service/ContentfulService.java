@@ -96,6 +96,7 @@ public class ContentfulService {
         .map(cdaResource -> (CDAEntry) cdaResource)
         .filter(entry -> LANGUAGE.equals(entry.getField(REFERENCE)))
         .map(cdaMapper::mapSkills)
+        .sorted(Comparator.comparing(Skill::getValue).reversed())
         .toList();
   }
 
